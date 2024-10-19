@@ -155,7 +155,7 @@ Thesis/
 ├── Models/                         # Saved models after being trained
 ├── Model_Evaluation_Results/       # Evaluation results of the trained models
 ├── Models_Training_History/        # Training history of models for each dataset split
-├── My_Test_Images/                 # Personal test images used for testing purposes
+├── My_Custom_Images/               # Personal test images used for testing purposes
 ├── Tomato_Leaves_Dataset/          # The dataset used for analysis in this thesis
 ├── Training_Times/                 # JSON files containing training times for each model and split
 ├── Website/                        # Web app built with Streamlit for user interaction
