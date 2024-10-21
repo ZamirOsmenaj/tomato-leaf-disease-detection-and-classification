@@ -181,3 +181,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### Thesis Documentation
 
 For a more detailed understanding of the project, including GPU setup for model training, it is recommended to start by reading the thesis PDF, which is available in the repository.
+
+---
+
+### Note on Notebook File Size
+
+**Important:** The Jupyter notebook uploaded to this repository exceeds GitHub's rendering limit (15MB), which prevents it from being displayed directly on the platform.
+
+#### Workarounds:
+- **To view the notebook locally:**
+  1. Clone the repository using:
+     ```
+     git clone <repository-url>
+     ```
+  1. Open the notebook locally using Jupyter or any compatible notebook viewer (e.g Visual Studio Code).
+  
+- **Alternatively, view the notebook on another platform:**
+  - You can use [nbviewer](https://nbviewer.jupyter.org/) or upload the notebook to [Google Colab](https://colab.research.google.com/) for better viewing.
