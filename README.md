@@ -4,7 +4,7 @@
 
 ### Description
 
-The prevalence of diseases in tomato plants poses a significant challenge to agriculture, necessitating innovative solutions to address this problem. This project, part of a thesis, explores the application of Machine Learning (ML) and Artificial Intelligence (AI) to develop a model capable of identifying and classifying diseases in tomato leaves. 
+The prevalence of diseases in tomato plants poses a significant challenge to agriculture, necessitating innovative solutions to address this problem. This project, part of a thesis, explores the application of Machine Learning (ML) and Artificial Intelligence (AI), specifically leveraging Computer Vision (a field within AI), to develop a model capable of identifying and classifying diseases in tomato leaves. 
 
 The project involves:
 
