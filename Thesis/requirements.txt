@@ -1,8 +1,10 @@
+jupyter
 numpy
 pandas
 tensorflow==2.12.1
 matplotlib
-jupyter
 seaborn
 scikit-learn
 streamlit
+streamlit-option-menu
+Pillow
