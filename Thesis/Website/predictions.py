@@ -30,7 +30,7 @@ def model_prediction(model, test_image):
 
     return result_index, percentage
 
-def predict_page():
+def predict_page(model):
     st.title("Tomato Leaf Disease Detection")
     test_image = st.file_uploader("Choose file:")
 
@@ -85,7 +85,7 @@ def predict_page():
             if file_extension.lower() in ['.png', '.jpg', '.jpeg']:
                 st.markdown("**Model Prediction:**")
 
-                result_index, percentage = model_prediction(test_image)
+                result_index, percentage = model_prediction(model, test_image)
 
                 test_data_dir = '../Tomato_Leaves_Dataset/80-10-10/test'
                 diseases = os.listdir(test_data_dir)
@@ -107,7 +107,7 @@ def predict_page():
                 
                 # Display the uploaded image in a larger size (400x300)
                 image = Image.open(test_image)
-                st.image(image.resize((400, 300)), caption='Uploaded Image', use_column_width=True)
+                st.image(image.resize((400, 300)), caption='Uploaded Image', use_container_width=True)
 
                 st.markdown("### Treatment Recommendation")
                 st.write(treatment)
@@ -205,7 +205,7 @@ def main():
         # Load trained model for making predictions
         model = tf.keras.models.load_model('../Models/80-10-10/CNN_trained_tomato_leaf_disease_model.keras')
     
-        predict_page()
+        predict_page(model)
     else:
         about_us()
 
