@@ -178,12 +178,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-### Thesis Documentation
-
-For a more detailed understanding of the project, including GPU setup for model training, it is recommended to start by reading the thesis PDF, which is available in the repository.
-
----
-
 ### Note on Notebook File Size
 
 **Important:** The Jupyter notebook uploaded to this repository exceeds GitHub's rendering limit (15MB), which prevents it from being displayed directly on the platform.
